@@ -1,0 +1,51 @@
+body{
+
+padding: 0;
+margin: 0;
+
+}
+
+.navegacion{
+
+    display: inline-block;
+    background-color: black;
+
+    color: blanchedalmond;
+
+    padding-right: 20px;
+
+    width: 100%;
+
+    margin: 0;
+
+    align-self: center;
+
+}
+
+.navegacion div{
+
+    margin: 11px;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: inline-flex;
+    align-items: center;
+
+
+}
+
+.navegacion img{
+
+    margin: 11px;
+
+}
+
+.align-right{
+
+    float: right;
+
+}
+.align-left{
+
+    float: left;
+
+}
