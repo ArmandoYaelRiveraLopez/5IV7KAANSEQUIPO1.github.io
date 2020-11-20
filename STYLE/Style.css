@@ -7,12 +7,16 @@ margin: 0;
 
 .navegacion{
 
-    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+
+    position: relativa;
+
+    display: flexbox;
     background-color: black;
 
     color: blanchedalmond;
 
-    padding-right: 20px;
+
 
     width: 100%;
 
@@ -20,18 +24,55 @@ margin: 0;
 
     align-self: center;
 
+    /*padding: 10px;*/
+
 }
 
-.navegacion div{
+.navegacion-contenido{
 
-    margin: 11px;
-    margin-top: auto;
-    margin-bottom: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.navegacion .flex-box{
+
+ 
     display: inline-flex;
     align-items: center;
 
 
+
 }
+
+
+.navegacion .flex-box2{
+
+ 
+    display: block;
+    width: 50%;
+
+
+
+}
+
+
+.navegacion a{
+
+    color: blanchedalmond;
+    margin-right: 11px;
+    text-decoration: none;
+    transition: ease 0.4s;
+}
+.navegacion a:hover{
+
+    
+    color:gold;
+
+}
+
 
 .navegacion img{
 
@@ -39,11 +80,14 @@ margin: 0;
 
 }
 
+
 .align-right{
 
     float: right;
 
 }
+
+
 .align-left{
 
     float: left;
