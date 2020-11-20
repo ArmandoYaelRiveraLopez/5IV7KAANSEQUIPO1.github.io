@@ -2,6 +2,7 @@ body{
 
 padding: 0;
 margin: 0;
+background-color: black;
 
 }
 
@@ -16,6 +17,8 @@ margin: 0;
 
     color: blanchedalmond;
 
+
+    border-bottom: blanchedalmond;
 
 
     width: 100%;
@@ -91,5 +94,30 @@ margin: 0;
 .align-left{
 
     float: left;
+
+}
+.box {
+
+
+    display: block;
+
+
+
+}
+
+.images{
+
+    object-fit: fill;
+
+}
+
+.pack{
+
+    
+    width: 50%;
+    height: auto;
+    height: 20px;
+
+    color: blanchedalmond;
 
 }
