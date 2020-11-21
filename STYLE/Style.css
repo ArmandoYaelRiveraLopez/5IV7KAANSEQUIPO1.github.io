@@ -3,6 +3,18 @@ body{
 padding: 0;
 margin: 0;
 
+/*background-image: url("../IMG/aa.jpg");*/
+background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../IMG/aa.jpg") ;
+
+/* Set a specific height */
+height: 500px;
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
 
 }
 
@@ -13,7 +25,7 @@ margin: 0;
     position: relativa;
 
     display: flexbox;
-    background-color: #F25270;
+    /*background-color: #F25270;*/
 
     color: white;
 
@@ -27,6 +39,8 @@ margin: 0;
 
     /*padding: 10px;*/
 
+    
+
 }
 
 .navegacion-contenido{
@@ -34,7 +48,8 @@ margin: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    padding-left: 5%;
+    padding-right: 5%;
 
 }
 
@@ -62,10 +77,11 @@ margin: 0;
 
 .navegacion a{
 
-    color: blanchedalmond;
+    color: white;
     margin-right: 11px;
     text-decoration: none;
     transition: ease 0.4s;
+
 }
 .navegacion a:hover{
 
