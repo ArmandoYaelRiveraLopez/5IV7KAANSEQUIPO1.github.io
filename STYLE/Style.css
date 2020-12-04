@@ -115,7 +115,7 @@ background-size: cover;
 .welcome-text {
 	position: relative;
 	width: 100%;
-	height: 300px;
+	height: 100%;
 	margin-top: 15%;
 	text-align: center;
 }
@@ -146,17 +146,17 @@ background-size: cover;
 }
 .modal{
 
-  width: 100%;
+  width:  100%;
   height: 100%;
 
   background-color: rgba(0,0,0,0.7);
 
-  display: none;
-  align-items: center;
+  display:           none;
+  align-items:     center;
   justify-content: center;
 
   position: absolute;
-  top: 0;
+  top:             0;
 
 
 }
@@ -164,12 +164,90 @@ background-size: cover;
 .modal .content {
 
 
-  width: 650px;
+  width:  400px;
   height: 500px;
+
   display: flex;
-  background-color: white;
-  opacity: 1;
+
+  background-color: #1B1F26;
+  opacity:              1;
+
   justify-content: center;
-  align-items: center;
+  align-items:     center;
+
+}
+.content-div-form{
+
+
+  width: 300px;
+  height: auto;
+
+
+
+
+}
+
+.sign-in-textbox{
+
+
+  width:   92%;
+  padding: 4%;
+
+  background-color: #80809E;
+
+  margin-bottom: 10px;
+
+  border-style:  none;
+  border-radius: 50px;
+
+}
+
+.sign-in-title{
+
+  text-align: center;
+  padding-bottom: 10px;
+
+  color:                          white;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.sign-in-text{
+
+  font-size: 9pt;
+  color: #CCCCCC;
+  margin-left: 12px;
+  font-family: 'Montserrat', sans-serif;
+
+
+}
+.content-div-form a {
+
+
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 9pt;
+  margin-top: 20px;
+
+
+}
+
+.content-div-form a:hover {
+
+
+  color: #CCCCCC;
+
+
+
+}
+.sorrow{
+
+      background-color: #80809E;
+      border: none;
+      width: 40%;
+      height: 40px;
+
 
 }
