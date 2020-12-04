@@ -1,19 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
+  <head>
 
-<title>Index</title>
+    <meta charset="utf-8">
+    <title>index</title>
 
-<LINK href="STYLE/Style.css" rel="stylesheet"/>
+    <LINK href="STYLE/Style.css" rel="stylesheet"/>
 
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script type="text/javascript" src="JS/popupJS.js">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="JS/popupJS.js">
 
-</script>
+    </script>
 
-<body>
+  </head>
+
+
+
+<body class="body-index">
 
     <nav class="navegacion">
 
@@ -41,7 +47,7 @@
     <div class="welcome-text">
         <h1>
         Aprender mejor <span>Juntos</span></h1>
-        <a href="#">Registrarse</a>
+        <a href="#" id="acount-2">Registrarse</a>
     </div>
 
 
@@ -53,7 +59,7 @@
     </footer>
 
 
-    <div class="modal">
+    <div class="modal-sign-in">
 
       <div class="content">
 
@@ -88,10 +94,76 @@
               <p style="text-align:center">
 
 
-                <a href="#">¿No tienes cuenta?</a>
+                <a href="#" id="acount-1">¿No tienes cuenta?</a>
 
 
               </p>
+
+              <div class="outer">
+                <div class="inner">
+                  <a id="close">Back</a>
+                </div>
+              </div>
+
+
+            </div>
+
+
+          </form>
+
+
+      </div>
+
+    </div>
+    <div class="modal-sign-up">
+
+      <div class="content">
+
+          <form class="signin-form" action="index.html" method="post">
+
+            <div class="content-div-form">
+
+              <p class = "sign-in-title" >Registro</p>
+
+
+              <p class="sign-in-text">Nombre</p>
+
+              <input class="sign-in-textbox" type="text" name="" value="" >
+
+              <p class="sign-in-text">Apellido Paterno</p>
+
+              <input class="sign-in-textbox" type="text" name="" value="" >
+
+              <p class="sign-in-text">Apellido Materno</p>
+
+              <input class="sign-in-textbox" type="text" name="" value="" >
+
+              <p class="sign-in-text">Correo</p>
+
+              <input class="sign-in-textbox" type="text" name="" value="" >
+
+
+
+              <p class="sign-in-text">Contraseña</p>
+
+              <input class="sign-in-textbox" type="password" name="" value="" >
+
+              <p class="sign-in-text">Confirmar Contraseña</p>
+
+              <input class="sign-in-textbox" type="password" name="" value="" >
+
+              <p class="sign-in-text" style="text-align:center; margin-left:0"><input type="checkbox" class="sign-in-text" style="color:white" name="" value="">Acepto los <a href="#">terminos</a>  y condiciones</p>
+
+              <p style="text-align:center">
+                <input class="sorrow" type="submit" name=""  style=" " value="Crear Cuenta" placeholder="ingresar"/>
+              <p style="text-align:center">
+
+
+              <div class="outer">
+                <div class="inner">
+                  <a id="close-2">Back</a>
+                </div>
+              </div>
 
 
             </div>
