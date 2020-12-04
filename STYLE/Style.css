@@ -1,3 +1,4 @@
+
 .body-index{
 
 padding: 0;
@@ -15,6 +16,13 @@ background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 
+
+}
+.body-main{
+
+  background-color: #F29B9B;
+  padding: 0;
+  margin: 0;
 
 }
 
@@ -54,7 +62,7 @@ background-size: cover;
 
 }
 
-.navegacion .flex-box{
+.flex-box{
 
 
     display: inline-flex;
@@ -345,5 +353,117 @@ background-size: cover;
 
   justify-content: center;
   align-items:     center;
+
+}
+/*not my code yet*/
+ul.tabs {
+
+	margin: 0;
+	padding: 0;
+	float: left;
+	list-style: none;
+	height: 32px; /*--Set height of tabs--*/
+	width: 100%;
+  margin-top: 20px;
+
+}
+ul.tabs li {
+	/*float: left;*/
+	margin: 0;
+	padding: 0;
+	height: 31px; /*--Subtract 1px from the height of the unordered list--*/
+	line-height: 31px; /*--Vertically aligns the text within the tab--*/
+	border: none;
+	border-left: none;
+	margin-bottom: -1px; /*--Pull the list item down 1px--*/
+	overflow: hidden;
+	position: relative;
+  border-radius: 0px 50px 50px 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 7pt;
+
+}
+ul.tabs li a {
+	text-decoration: none;
+	color: white;
+	display: block;
+	font-size: 1.2em;
+	padding: 0 60px;
+	outline: none;
+
+}
+ul.tabs li a:hover {
+	border-left: 3px solid #9AD9C2;
+}
+html ul.tabs li.active, html ul.tabs li.active a:hover  {
+
+	background: #1B1F26;
+	border-bottom: none;
+  border: 1px solid #9AD9C2;
+  border-left: none;
+
+
+}
+.tab_container {
+  display: block;
+  width: 85%;
+  height: 100%;
+	border: none;
+
+	overflow: hidden;
+	clear: both;
+  background: #1B1F26;
+  border: 1px solid #9AD9C2;
+  border-top: none;
+
+}
+.tab_content {
+  display: block;
+  margin: 0;
+	padding: 0px 10px;
+	font-size: 1.2em;
+
+}
+.grid{
+
+  margin-top: 15px;
+  /*padding-top: 20px;*/
+
+  grid-template-columns: 14% 85%;
+  column-gap: 1%;
+  display: grid;
+  height: 100%;
+  border-top: 1px solid #9AD9C2;
+  position: static;
+
+}
+.AcountC{
+
+
+  font-size: 10pt;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+
+
+  border-radius: 50px;
+
+  padding-right: 15px;
+
+
+}
+.AcountC:hover{
+
+  background-color: #1B1F26;
+  border: 1px solid #9AD9C2;
+
+
+}
+.AcountC img{
+
+    border-radius: 50px;
 
 }
