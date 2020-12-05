@@ -209,6 +209,13 @@ background-size: cover;
   border-radius: 50px;
 
 }
+.sign-in-textbox:focus{
+
+
+  border: 1px solid #9AD9C2;
+
+
+}
 
 .sign-in-title{
 
@@ -259,6 +266,13 @@ background-size: cover;
       border: none;
       width: 40%;
       height: 40px;
+      transition: ease 0.3s ;
+
+
+}
+.sorrow:hover{
+
+  width: 45%;
 
 
 }
@@ -405,20 +419,27 @@ html ul.tabs li.active, html ul.tabs li.active a:hover  {
 
 }
 .tab_container {
-  display: block;
-  width: 85%;
+
+
+  width: 100%;
   height: 100%;
 	border: none;
 
 	overflow: hidden;
 	clear: both;
   background: #1B1F26;
-  border: 1px solid #9AD9C2;
+  border-left: 1px solid #9AD9C2;
   border-top: none;
 
 }
 .tab_content {
-  display: block;
+  display: flex;
+
+  width: inherit;
+  height: inherit;
+
+  align-items: center;
+  justify-content: center;
   margin: 0;
 	padding: 0px 10px;
 	font-size: 1.2em;
@@ -429,8 +450,8 @@ html ul.tabs li.active, html ul.tabs li.active a:hover  {
   margin-top: 15px;
   /*padding-top: 20px;*/
 
-  grid-template-columns: 14% 85%;
-  column-gap: 1%;
+  grid-template-columns: 15% 85%;
+
   display: grid;
   height: 100%;
   border-top: 1px solid #9AD9C2;
@@ -465,5 +486,47 @@ html ul.tabs li.active, html ul.tabs li.active a:hover  {
 .AcountC img{
 
     border-radius: 50px;
+
+}
+
+.grid-cont{
+  display: grid;
+
+  grid-template-columns: auto auto auto auto auto;
+
+
+}
+.card-cont{
+
+  display:           flex;
+  align-items:     center;
+  justify-content: center;
+  margin: 20px;
+
+  height: 220px;
+  width:  220px;
+
+  transition: 0.3s ease;
+
+}
+.card-cont:hover{
+
+  border-radius: 100%;
+
+
+}
+.card-cont-1{
+
+  background: url("../IMG/aa.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover
+
+}
+.block{
+
+  display: block;
+  height: inherit;
+
 
 }
