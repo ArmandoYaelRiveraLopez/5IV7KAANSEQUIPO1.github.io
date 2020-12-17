@@ -1,0 +1,422 @@
+.body-index{
+
+  padding: 0;
+  margin: 0;
+  
+  /*background-image: url("../IMG/aa.jpg");*/
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../IMG/aa.jpg") ;
+  
+  /* Set a specific height */
+  height: 500px;
+  
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
+  }
+  
+  .navegacion{
+  
+      font-family: 'Montserrat', sans-serif;
+  
+      position: relativa;
+  
+      display: flexbox;
+      /*background-color: #F25270;*/
+  
+      color: white;
+  
+  
+  
+      width: 100%;
+  
+      margin: 0;
+  
+      align-self: center;
+  
+      /*padding: 10px;*/
+  
+  
+  
+  }
+  
+  .navegacion-contenido{
+  
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-left: 5%;
+      padding-right: 5%;
+      padding-top: 12px;
+  
+  }
+  
+  .navegacion .flex-box{
+  
+  
+      display: inline-flex;
+      align-items: center;
+  
+  
+  
+  }
+  
+  
+  .navegacion .flex-box2{
+  
+  
+      display: block;
+      width: 50%;
+  
+  
+  
+  }
+  
+  
+  .navegacion a{
+  
+      color: white;
+      margin-right: 11px;
+      text-decoration: none;
+      transition: ease 0.4s;
+  
+  }
+  .navegacion a:hover{
+  
+  
+      color:#9AD9C2;
+  
+  }
+  
+  
+  .navegacion img{
+  
+      margin: 11px;
+  
+  }
+
+
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+
+
+a {
+  color: #cda45e;
+}
+
+a:hover {
+  color: #d9ba85;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", serif;
+}
+
+/*--------------------------------------------------------------
+# Disable aos animation delay on mobile devices
+--------------------------------------------------------------*/
+@media screen and (max-width: 768px) {
+  [data-aos-delay] {
+    transition-delay: 0 !important;
+  }
+}
+
+
+/*--------------------------------------------------------------
+# Seccion general
+--------------------------------------------------------------*/
+section {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.section-bg {
+  background-color: #1a1814;
+}
+
+.section-title {
+  padding-bottom: 40px;
+}
+
+.section-title h2 {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0;
+  line-height: 1px;
+  margin: 0 0 5px 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  font-family: "Poppins", sans-serif;
+}
+
+.section-title h2::after {
+  content: "";
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 4px 10px;
+}
+
+.section-title p {
+  margin: 0;
+  margin: 0;
+  font-size: 36px;
+  font-weight: 700;
+  font-family: "Playfair Display", serif;
+  color: #cda45e;
+}
+
+/*--------------------------------------------------------------
+# nosotros
+--------------------------------------------------------------*/
+.chefs .member {
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.chefs .member .member-info {
+  opacity: 0;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: 0.2s;
+}
+
+.chefs .member .member-info-content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 10px;
+  transition: bottom 0.4s;
+}
+
+.chefs .member .member-info-content h4 {
+  font-weight: 700;
+  margin-bottom: 2px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.chefs .member .member-info-content span {
+  font-style: italic;
+  display: block;
+  font-size: 13px;
+  color: #fff;
+}
+
+.chefs .member .social {
+  position: absolute;
+  left: 0;
+  bottom: -38px;
+  right: 0;
+  height: 48px;
+  transition: bottom ease-in-out 0.4s;
+  text-align: center;
+}
+
+.chefs .member .social a {
+  transition: color 0.3s;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.chefs .member .social a:hover {
+  color: #cda45e;
+}
+
+.chefs .member .social i {
+  font-size: 18px;
+  margin: 0 2px;
+}
+
+.chefs .member:hover .member-info {
+  opacity: 1;
+  transition: 0.4s;
+}
+
+.chefs .member:hover .member-info-content {
+  bottom: 60px;
+  transition: bottom 0.4s;
+}
+
+.chefs .member:hover .social {
+  bottom: 0;
+  transition: bottom ease-in-out 0.4s;
+}
+
+/*--------------------------------------------------------------
+# Contacto
+--------------------------------------------------------------*/
+.contact .info {
+  width: 100%;
+}
+
+.contact .info i {
+  font-size: 20px;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #cda45e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact .info h4 {
+  padding: 0 0 0 60px;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  font-family: "Poppins", sans-serif;
+}
+
+.contact .info p {
+  padding: 0 0 0 60px;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #bab3a6;
+}
+
+.contact .info .open-hours, .contact .info .email, .contact .info .phone {
+  margin-top: 40px;
+}
+
+.contact .php-email-form {
+  width: 100%;
+}
+
+.contact .php-email-form .form-group {
+  padding-bottom: 8px;
+}
+
+.contact .php-email-form .validate {
+  display: none;
+  color: red;
+  margin: 0 0 15px 0;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.contact .php-email-form .error-message {
+  display: none;
+  color: #fff;
+  background: #ed3c0d;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.contact .php-email-form .sent-message {
+  display: none;
+  color: #fff;
+  background: #18d26e;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.contact .php-email-form .loading {
+  display: none;
+  text-align: center;
+  padding: 15px;
+}
+
+.contact .php-email-form .loading:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -6px 0;
+  border: 3px solid #cda45e;
+  border-top-color: #1a1814;
+  -webkit-animation: animate-loading 1s linear infinite;
+  animation: animate-loading 1s linear infinite;
+}
+
+.contact .php-email-form input, .contact .php-email-form textarea {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+  background: #0c0b09;
+  border-color: #625b4b;
+  color: white;
+}
+
+.contact .php-email-form input::-webkit-input-placeholder, .contact .php-email-form textarea::-webkit-input-placeholder {
+  color: #a49b89;
+}
+
+.contact .php-email-form input::-moz-placeholder, .contact .php-email-form textarea::-moz-placeholder {
+  color: #a49b89;
+}
+
+.contact .php-email-form input:-ms-input-placeholder, .contact .php-email-form textarea:-ms-input-placeholder {
+  color: #a49b89;
+}
+
+.contact .php-email-form input::-ms-input-placeholder, .contact .php-email-form textarea::-ms-input-placeholder {
+  color: #a49b89;
+}
+
+.contact .php-email-form input::placeholder, .contact .php-email-form textarea::placeholder {
+  color: #a49b89;
+}
+
+.contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
+  border-color: #cda45e;
+}
+
+.contact .php-email-form input {
+  height: 44px;
+}
+
+.contact .php-email-form textarea {
+  padding: 10px 12px;
+}
+
+.contact .php-email-form button[type="submit"] {
+  background: #cda45e;
+  border: 0;
+  padding: 10px 35px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+}
+
+.contact .php-email-form button[type="submit"]:hover {
+  background: #d3af71;
+}
+
+@-webkit-keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
